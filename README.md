@@ -1,10 +1,10 @@
-Smart Home Monitoring System
-An IoT and Edge AI–Enabled Home Safety and Automation System
-Overview
+**Smart Home Monitoring System
+An IoT and Edge AI–Enabled Home Safety and Automation System**
+O**verview** 
 The Smart Home Monitoring System (SHM) is an IoT-based home safety and automation project developed for the COM6017M – Internet of Things & Edge Intelligence module.
 The system combines real-time sensing, edge-level intelligence using a Raspberry Pi, cloud analytics via ThingSpeak and MATLAB, and Telegram-based user notifications to enhance household safety and automate responses to hazardous conditions.
 
-System Architecture
+**System Architecture**
 Sensors → Arduino UNO → BLE →
 Raspberry Pi (Edge Intelligence) →
 ThingSpeak Cloud (MATLAB Analytics) →
