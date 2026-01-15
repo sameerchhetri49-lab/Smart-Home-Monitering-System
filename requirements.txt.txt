@@ -1,0 +1,5 @@
+numpy
+pyserial
+bluepy
+requests
+tensorflow-lite-runtime
