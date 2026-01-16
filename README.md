@@ -1,18 +1,18 @@
 **Smart Home Monitoring System
 An IoT and Edge AI–Enabled Home Safety and Automation System**
 O**verview** 
+
 The Smart Home Monitoring System (SHM) is an IoT-based home safety and automation project developed for the COM6017M – Internet of Things & Edge Intelligence module.
 The system combines real-time sensing, edge-level intelligence using a Raspberry Pi, cloud analytics via ThingSpeak and MATLAB, and Telegram-based user notifications to enhance household safety and automate responses to hazardous conditions.
 
 **System Architecture**
-Sensors → Arduino UNO → BLE →
-Raspberry Pi (Edge Intelligence) →
-ThingSpeak Cloud (MATLAB Analytics) →
-Telegram Bot → User
+
+Sensors → Arduino UNO → BLE → Raspberry Pi (Edge Intelligence) → ThingSpeak Cloud (MATLAB Analytics) → Telegram Bot → User
 
 The architecture ensures low-latency local decisions while still enabling cloud-based monitoring and analytics.
 
-Sensors & Actuators
+**Sensors & Actuators**
+
 MQ-2 Gas Sensor – Detects gas leakage
 Flame Sensor – Detects fire
 DHT11 – Temperature and humidity monitoring
@@ -20,7 +20,8 @@ Rain Sensor + Servo Motor – Protects clothes from rain
 Ultrasonic Sensor + Servo Motor – Automated door control
 LEDs & Buzzer – Local visual and audible alerts
 
-Key Features
+**Key Features**
+
 Real-time monitoring of environmental and safety conditions
 Edge intelligence processing on Raspberry Pi
 Automated control of door and clothes protection system
@@ -29,7 +30,8 @@ Cloud analytics using ThingSpeak and MATLAB
 Telegram notifications with anti-spam logic
 Operates reliably during intermittent internet connectivity
 
-Hardware Used
+**Hardware Used**
+
 Arduino UNO
 Raspberry Pi 4
 MQ-2 Gas Sensor
@@ -41,7 +43,8 @@ Servo Motors
 LEDs and Buzzer
 Regulated USB Power Supply
 
-Software & Technologies
+**Software & Technologies**
+
 Arduino IDE – Microcontroller programming (Arduino C)
 Python 3.11 – Raspberry Pi processing
 TensorFlow Lite (lightweight / future-ready) – Edge intelligence
@@ -50,7 +53,8 @@ MATLAB Analytics – Data analysis and event logic
 Telegram Bot API – User notifications
 Bluetooth Low Energy (BLE) – Arduino to Raspberry Pi communication
 
-Repository Structure
+**Repository Structure**
+
 SHM-IoT-Edge-AI/
 ├── Arduino/
 │   └── smarthome.ino
@@ -63,7 +67,8 @@ SHM-IoT-Edge-AI/
 ├── requirements.txt
 └── README.md
 
-Edge Intelligence Description
+**Edge Intelligence Description**
+
 Edge intelligence is implemented on the Raspberry Pi to:
 Interpret sensor data received via BLE
 Detect hazardous conditions locally
