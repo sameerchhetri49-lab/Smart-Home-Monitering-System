@@ -177,6 +177,8 @@ API keys, Telegram bot tokens, and cloud credentials are not included in this re
 Users must insert their own credentials using placeholder values before deployment.
 
 ---
+## Demonstration Video:
+[https://youtu.be/0h9iagiIK7s](url)
 
 ## Author
 
