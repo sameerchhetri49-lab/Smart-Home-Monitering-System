@@ -178,7 +178,7 @@ Users must insert their own credentials using placeholder values before deployme
 
 ---
 ## Demonstration Video:
-[https://youtu.be/0h9iagiIK7s](url)
+https://youtu.be/0h9iagiIK7s
 
 ## Author
 
